@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "YouTube Fullpage-ify",
+  "description": "Switch YouTube videos to take up the entire window without being fullscreen. This is useful for tiling window managers!",
+  "version": "1.0",
+
+  "browser_action": {},
+
+  "background": {
+    "scripts": ["embed.js"]
+  },
+
+  "permissions": [
+    "activeTab"
+  ]
+}
